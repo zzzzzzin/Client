@@ -1,0 +1,149 @@
+ Client
+ - Front-end
+ 
+ 1. HTML
+ 2. CSS
+ 3. JavaScript
+ 
+ Web?
+  - WWW > World Wide Web
+  - http://www.naver.com
+  
+ Network
+ - 2대 이상의 컴퓨터를 서로 연결해 놓은 환경
+ - 통신 가능한 환경
+ - 관리하는 주체가 있음
+ 
+ Internet
+ - inter-network
+ - 전세계의 모든 컴퓨터를 서로 연결해놓은 환경
+ 
+ Web
+ - 인터넷 기반
+ - 서로간의 정보(문서)를 주고 받은 환경
+ 
+우리의 목적
+- Web 기반의 서비스 구현
+ 
+Web 구성
+- 웹 클라이언트 <-> 웹 서버
+- 웹서버: 문서를 제공함 > 아파치 톰캣
+- 웹클라이언트 : 문서를 요청 + 제공받음(소비) > 웹 브라우저(크롬)
+ 
+URI
+- Uniform Resource Identifier
+ 
+URL
+- Uniform Resource Locator
+- 웹에서 주어진 자원(웹문서, 이미지, 동영상, 파일 등)의 고유 주소
+
+http://www.naver.com:80/member/list.html?name=hong&age=10&gender=f - url
+1. http:
+	- 프로토콜(Protocol) > 통신 규약
+	- 서로간의 데이터를 주고 받을 때 사용하는 규칙(약속)
+	- HyperText(HTML) Transfer Protocol > HTML을 전달하기 위한 프로토콜
+	- http:
+	- https: > http:보다 보안이 추가됨(security)
+	
+2. www.naver.com
+	- Damail Address
+	- 도메인 주소
+	- 서버 컴퓨터(호스트)의 주소
+	- IP Address 사용
+
+3. IP
+	- 인터넷에서 호스트를 구분하는 고유 주소값(전 세계에서 유일한 값)
+	- XXX.XXX.XXX.XXX > IPv4
+	- http://223.130.200.236
+	
+4. DNS
+	- Domain name System
+	- DNS Server
+	- http://naver.comt > (DNS가 변환시킴) > http://223.130.220.236	
+
+5. Port Number
+	- 네트워크를 사용하는 프로그램이 사용하는 통로
+	- 0 ~ 65535
+	- 독점 > 프로그램 하나 당 포트 하나
+	- ~ 1000 : 예약 포트 넘버 > 이미 사용되고 있음
+	- http: > :80 번호(기본)
+	
+6. IP:80
+	- 상대방의 컴퓨처 + 프로그램 = 식별자
+	- 종단점(EndPoint)	
+	
+7. /member
+	- 자원의 경로(폴더)
+
+8. /list.html
+	- 자원명(파일명)
+	
+9. ?name=hong&age=10&gender=f
+	- Query String
+	- name=hong
+		- name : Parameter
+		- hong : Value	
+
+
+----------------------------------------------------------------------------------------
+Java 개발 및 실행 환경
+- 개발: JDK
+- 실행: JRE
+
+HTML/CSS/JavaScript 실행(개발) 환경
+- 실행: 브라우저
+
+src > main > webapp
+- 아파치 톰캣 구조 
+- 루트 폴더(최상위 폴더)
+- 웹사이트를 구성하는 자원들의 최상위 폴더
+
+HTML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+	
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

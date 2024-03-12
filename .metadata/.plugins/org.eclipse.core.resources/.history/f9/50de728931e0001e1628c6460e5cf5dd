@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<!--
+		공백 문자, Whitespace
+		- 스페이스, 탭, 개행 문자
+		
+		
+		
+	-->
+	하나                   둘 				셋
+	넷
+	다섯
+</body>
+</html>

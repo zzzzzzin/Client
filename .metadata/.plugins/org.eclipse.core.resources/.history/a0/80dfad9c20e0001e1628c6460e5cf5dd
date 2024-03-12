@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+	HTML, Hyper Text Markup Language
+	- 하이퍼 텍스트 마크업 언어
+	- HyperText > 링크(Link)
+	- Markup Language > 태그(Tag)를 사용해서 문법을 표기하는 언어
+		- SGML, XML, HTML, XHTML 등...
+	- 프로그래밍 언어(X) > 표현 언어(O): 브라우저 화면에 무언가를 출력하는 기능만 있는 언어
+	- http://w3.org, http://w3c.org > 웹에 대한 표준을 지정하는 기관(비영리 기관)
+	- HTML 1.0 ~ HTML5
+	- 수업: HTML 4.01 + XHTML 1.0 + HTML 5 (위 세가지는 의미 있는 HTML으로 알고 있어야 함)
+		- HTML 4.01
+		- XHTML 1.0 = XML + HTML  
+		- HTML 5 + CSS 3 + JavaScript(ES6)
+	
+	
+	
+-->
+</body>
+</html>
