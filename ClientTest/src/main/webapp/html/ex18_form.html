@@ -6,50 +6,50 @@
 </head>
 <body>
 	<!--  
-		<form>, Æû
+		<form>, í¼
 		HTML Form + HTML Input Control
-		- ÀÔ·Â ¾ç½Ä
-		- Å¬¶óÀÌ¾ðÆ®(»ç¿ëÀÚ)·ÎºÎÅÍ ÀÔ·ÂÀåÄ¡(Å°º¸µå, ¸¶¿ì½º µî)À» ÅëÇØ¼­ µ¥ÀÌÅÍ¸¦ ÀÔ·Â¹Þ´Â ¿ªÇÒ
-			+ ¼­¹ö·Î Àü¼ÛÇÏ´Â ¿ªÇÒ
-		- ex) ÅØ½ºÆ®¹Ú½º, ¶óµð¿À ¹öÆ°, Ã¼Å© ¹Ú½º, ¼¿·ºÆ® ¹Ú½º µî..
+		- ìž…ë ¥ ì–‘ì‹
+		- í´ë¼ì´ì–¸íŠ¸(ì‚¬ìš©ìž)ë¡œë¶€í„° ìž…ë ¥ìž¥ì¹˜(í‚¤ë³´ë“œ, ë§ˆìš°ìŠ¤ ë“±)ì„ í†µí•´ì„œ ë°ì´í„°ë¥¼ ìž…ë ¥ë°›ëŠ” ì—­í• 
+			+ ì„œë²„ë¡œ ì „ì†¡í•˜ëŠ” ì—­í• 
+		- ex) í…ìŠ¤íŠ¸ë°•ìŠ¤, ë¼ë””ì˜¤ ë²„íŠ¼, ì²´í¬ ë°•ìŠ¤, ì…€ë ‰íŠ¸ ë°•ìŠ¤ ë“±..
 		
-		<form> ÅÂ±×
-		- ½º½º·Î ·»´õ¸µ °á°ú¸¦ ¸¸µéÁö ¾Ê´Â´Ù.(È­¸é¿¡ ¾È º¸ÀÓ)
-		- ÀÔ·Â¹ÞÀº °ªµéÀ» ÃëÇÕÇØ¼­ ¼­¹ö·Î º¸³»´Â ¿ªÇÒ(*****)
+		<form> íƒœê·¸
+		- ìŠ¤ìŠ¤ë¡œ ë Œë”ë§ ê²°ê³¼ë¥¼ ë§Œë“¤ì§€ ì•ŠëŠ”ë‹¤.(í™”ë©´ì— ì•ˆ ë³´ìž„)
+		- ìž…ë ¥ë°›ì€ ê°’ë“¤ì„ ì·¨í•©í•´ì„œ ì„œë²„ë¡œ ë³´ë‚´ëŠ” ì—­í• (*****)
 		
 		form.method
-		- µ¥ÀÌÅÍ¸¦ Àü´ÞÇÏ´Â ¹æ½Ä(Å¬¶óÀÌ¾ðÆ® ¼­¹ö¿¡°Ô ÀÚ¿øÀ» ¿äÃ»ÇÏ´Â ¹æ½Ä)
+		- ë°ì´í„°ë¥¼ ì „ë‹¬í•˜ëŠ” ë°©ì‹(í´ë¼ì´ì–¸íŠ¸ ì„œë²„ì—ê²Œ ìžì›ì„ ìš”ì²­í•˜ëŠ” ë°©ì‹)
 		
 		a. GET
-			- °á°ú: http://localhost:8080/client/html/ex18.jsp?data=12345
-			- µ¥ÀÌÅÍ¸¦ Àü¼ÛÇÒ URL(ÁÖ¼Ò°ª) µÚ¿¡ µ¥ÀÌÅÍ¸¦ º¸³»´Â ¹æ½Ä(= Query String)
-			- µ¥ÀÌÅÍ°¡ ³ëÃâµÉ À§ÇèÀÌ Á¸Àç
-			- URL(256ÀÚ ÀÌ³») -> ±ä µ¥ÀÌÅÍ Àü¼Û ¾È ÇÔ(Á¦ÇÑÀÌ °ÅÀÇ ¾øÁö¸¸, °ü½ÀÃ³·³ ³²À½)
-			- ¼ýÀÚ or id
+			- ê²°ê³¼: http://localhost:8080/client/html/ex18.jsp?data=12345
+			- ë°ì´í„°ë¥¼ ì „ì†¡í•  URL(ì£¼ì†Œê°’) ë’¤ì— ë°ì´í„°ë¥¼ ë³´ë‚´ëŠ” ë°©ì‹(= Query String)
+			- ë°ì´í„°ê°€ ë…¸ì¶œë  ìœ„í—˜ì´ ì¡´ìž¬
+			- URL(256ìž ì´ë‚´) -> ê¸´ ë°ì´í„° ì „ì†¡ ì•ˆ í•¨(ì œí•œì´ ê±°ì˜ ì—†ì§€ë§Œ, ê´€ìŠµì²˜ëŸ¼ ë‚¨ìŒ)
+			- ìˆ«ìž or id
 			
 		b. POST
-			- °á°ú: http://localhost:8080/client/html/ex18.jsp
-			- µ¥ÀÌÅÍ¸¦ ÆÐÅ¶ º»¹®(Body)¿¡ ³Ö¾î¼­ Àü¼ÛÇÏ´Â ¹æ½Ä(Ç¥ÁØ) > µ¥ÀÌÅÍ¸¦ Æ÷ÀåÇØ¼­ º¸³»´Â ¹æ½Ä
-			- µ¥ÀÌÅÍÀÇ ³ëÃâ À§ÇèÀÌ ÀûÀ½
-			- ±æÀÌ Á¦ÇÑ ¾øÀ½
+			- ê²°ê³¼: http://localhost:8080/client/html/ex18.jsp
+			- ë°ì´í„°ë¥¼ íŒ¨í‚· ë³¸ë¬¸(Body)ì— ë„£ì–´ì„œ ì „ì†¡í•˜ëŠ” ë°©ì‹(í‘œì¤€) > ë°ì´í„°ë¥¼ í¬ìž¥í•´ì„œ ë³´ë‚´ëŠ” ë°©ì‹
+			- ë°ì´í„°ì˜ ë…¸ì¶œ ìœ„í—˜ì´ ì ìŒ
+			- ê¸¸ì´ ì œí•œ ì—†ìŒ
 			
 		
 		form.action
-		- µ¥ÀÌÅÍ¸¦ ¼ö½ÅÇÒ ¼­¹öÃø ÇÁ·Î±×·¥ÀÇ URL
-		- ¼­¹ö ÇÁ·Î±×·¡¹Ö ¾ð¾î·Î ±¸ÇöÇÑ ÇÁ·Î±×·¥ Á¸Àç(Servlet, JSP, Spring)
+		- ë°ì´í„°ë¥¼ ìˆ˜ì‹ í•  ì„œë²„ì¸¡ í”„ë¡œê·¸ëž¨ì˜ URL
+		- ì„œë²„ í”„ë¡œê·¸ëž˜ë° ì–¸ì–´ë¡œ êµ¬í˜„í•œ í”„ë¡œê·¸ëž¨ ì¡´ìž¬(Servlet, JSP, Spring)
 	-->
-	<h1>Æû(³×ÀÌ¹ö °Ë»öÃ¢)</h1>
+	<h1>í¼(ë„¤ì´ë²„ ê²€ìƒ‰ì°½)</h1>
 	
 	<form method="GET" action="https://search.naver.com/search.naver">
 		<input type="text" name="query">
-		<input type="submit" value="Àü¼Û">
+		<input type="submit" value="ì „ì†¡">
 	</form>
 
-	<h1>Æû(ex18.jsp)</h1>
+	<h1>í¼(ex18.jsp)</h1>
 	
 	<form method="GET" action="ex18.jsp">
 		<input type="text" name="data">
-		<input type="submit" value="Àü¼Û">
+		<input type="submit" value="ì „ì†¡">
 	</form>
 	
 	

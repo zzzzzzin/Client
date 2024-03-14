@@ -732,3 +732,8 @@
 0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:09:58 +0900] "GET /favicon.ico HTTP/1.1" 404 818
 0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:13:58 +0900] "GET /client/html/ex21_semantic.html HTTP/1.1" 200 663
 0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:13:58 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:19:17 +0900] "GET /client/html/ex18_form.html HTTP/1.1" 200 1622
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:19:30 +0900] "GET /client/html/ex19_form.html HTTP/1.1" 200 4454
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:19:30 +0900] "GET /client/html/images/catty01.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:19:30 +0900] "GET /client/html/images/circle_icon01.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:14:19:46 +0900] "GET /client/html/ex19_form.html?data=%C8%AB%B1%E6%B5%BF&rb1=on&rb2=on HTTP/1.1" 200 4454
