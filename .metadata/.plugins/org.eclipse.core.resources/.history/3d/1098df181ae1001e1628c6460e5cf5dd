@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="0" width="800">
+		<tr>
+			<td align="center"><h1>교 육 훈 련 일 지</h1></td>
+		</tr>
+	</table>
+	
+	<table>
+		<tr>
+			<td align="center">
+				교육기관 : 서울 고용 노동부 / 쌍용 교육 센터<br><br>
+				교육과정 : Java 기반 임베디드 플랫폼 연동 융합 개발자 양성 과정<br><br>
+				교육일자 : 2024년&nsbp;&nsbp;월&nsbp;&nsbp;일&nsbp;&nsbp;요일<br><br>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>출석부</h1>
+	<table border="1" >
+		<tr align="center">
+			<td rowspan="3">번호</td>
+			<td>일자</td>
+			<td colspan="2">03월 31일</td>
+			<td colspan="2">04월 01일</td>
+			<td colspan="2">04월 02일</td>
+			<td colspan="2">04월 03일</td>
+			<td colspan="2">04월 04일</td>
+			<td colspan="2">출석일</td>
+			<td colspan="2">결석</td>
+			<td colspan="2">지각</td>
+			<td colspan="2">조퇴</td>
+			<td colspan="2">확인</td>
+		</tr>
+		<tr>
+			<td>기관장<br>결재</td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td>확인<br>(지도교수)</td>
+			<td>시작</td>
+			<td>종료</td>
+			<td>시작</td>
+			<td>종료</td>
+			<td>시작</td>
+			<td>종료</td>
+			<td>시작</td>
+			<td>종료</td>
+			<td>시작</td>
+			<td>종료</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>강한님</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

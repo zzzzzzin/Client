@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td>교 육 훈 련 일 지</td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td>
+			교육기관 : 서울 고용 노동부 / 쌍용 교육 센터<br><br>
+			교육과정 : Java 기반 임베디드 플랫폼 연동 융합 개발자 양성 과정<br><br>
+			교육일자 : 2024년%nbsp;%nbsp;월%nbsp;%nbsp;일%nbsp;%nbsp;요일<br><br>
+			</td>
+		</tr>
+		<table>
+			<tr>
+				<td>담 당</td>
+				<td>팀 장</td>
+				<td>단 장</td>
+			</tr>
+			<tr>
+				<td>%nbsp;</td>
+				<td>%nbsp;</td>
+				<td>%nbsp;</td>
+			</tr>
+		</table>
+	</table>
+</body>
+</html>

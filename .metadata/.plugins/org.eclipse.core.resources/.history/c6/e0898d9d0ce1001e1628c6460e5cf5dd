@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>이미지 모음</h1>
+	<ol>
+		<li>사진
+			<ul>
+				<li>Item one</li>
+				<li>Item two</li>
+			</ul>
+
+		</li>
+		<li>이미지</li>
+		<li>아이콘</li>
+	</ol>
+
+
+</body>
+</html>

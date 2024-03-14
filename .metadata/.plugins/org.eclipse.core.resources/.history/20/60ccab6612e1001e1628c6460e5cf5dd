@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Picture</h1>
+	<img src="../html/images/placeimg_200_200_animals.jpg" width="200" height="200">
+<h2>200x200</h2>
+<h2>500x200</h2>
+<h2>200x400</h2>
+<h2>mixed</h2>
+</body>
+</html>

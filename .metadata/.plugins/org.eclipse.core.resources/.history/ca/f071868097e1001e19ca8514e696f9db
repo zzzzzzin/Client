@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>ex18_from</title>
+</head>
+<body>
+	<!--  
+		<form>, 폼
+		HTML Form + HTML Input Control
+		- 입력 양식
+		- 클라이언트(사용자)로부터 입력장치(키보드, 마우스 등)을 통해서 데이터를 입력받는 역할
+			+ 서버로 전송하는 역할
+		- ex) 텍스트박스, 라디오 버튼, 체크 박스, 셀렉트 박스 등..
+		
+		<form> 태그
+		- 스스로 렌더링 결과를 만들지 않는다.(화면에 안 보임) 
+	-->
+	<h1>폼</h1>
+	
+	<form>
+		<input type="text">
+	</form>
+	
+</body>
+</html>
