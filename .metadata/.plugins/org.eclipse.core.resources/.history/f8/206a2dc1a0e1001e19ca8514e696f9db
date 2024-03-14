@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>ex19_form</title>
+</head>
+<body>
+	<!--  
+		<form> 자식 태그
+		- 입력 양식
+		
+		<input> 태그
+		- 단독 태그
+		- 인라인 태그
+		- input.type: 입력 컨트롤의 종류
+		- input.name: 서버로 전송할 때, 사용하는 식별자
+		- input.id: 식별자. CSS, JavaScript에서 주로 사용
+		- input.class: 식별자. CSS, JavaScript에서 주로 사용
+		- input.size: 컨트롤의 너비(입력받는 문자 수)
+		- input.maxlength: 최대 입력 문자 수 + 유효성 검사
+		- input.value: 컨트롤의 입력값
+		- input.readonly: 읽기 전용. 플래그형 (수정 불가능) > 입력 불가능 + 서버 전송 가능
+		- input.disabled: 비활성화. 플래그형 (수정 불가능) > 입력 불가능 + 서버 전송 불가능
+		- input.accesskey: 바로가기(니모닉, Nemonic), Alt + 키
+		- input.autofocus: 자동 포커스
+		- input.title: 풍선 도움말
+		
+	-->
+	
+	<h1>입력 컨트롤</h1>
+	<form>
+		텍스트박스(단일라인): <input type="text" name="data" id="txt1" class="txt" size="10"
+								maxlength="5" value="홍길동" accesskey="s" autofocus
+								title="이름을 입력하세요.">
+								
+		<hr>
+		
+		<input type="submit" value="보내기">
+	</form>
+</body>
+</html>
