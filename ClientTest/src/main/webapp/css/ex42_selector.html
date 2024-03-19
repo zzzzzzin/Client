@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex42_selector</title>
+    <script src="https://kit.fontawesome.com/24f779aabc.js" crossorigin="anonymous"></script>
+    <style>
+        /* 
+            CSS 선택자
+            1. :firsh-child
+                - 가상 클래스
+            2. ::before 
+                - 가상 요소
+            
+            전후 선택자
+            - 선택한 요소의 앞이나 뒤에 (자식으로) 내용을 추가하는 역할s
+            1. :: beore
+                - ::before
+            2. ::after 
+                - :after
+        
+        */
+
+        p > span { color: coral;}
+
+        /* p > span::before { 
+            content:  '문자열';
+            color: blue;
+        }
+
+        p > span::after {
+            content:  '홍길동';
+            color: tomato;  
+            font-style: italic;
+        } */
+
+        p > span::before {
+            content: '❤️';
+        }
+
+        i {
+            font-size: 10rem;
+            color: tomato;
+        }
+
+    </style>
+</head>
+<body>
+    <i class="fa-solid fa-dice"></i>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa est repudiandae dolor excepturi <span>praesentium</span> id placeat modi nemo eligendi <span>molestiae?</span> Quidem adipisci asperiores distinctio ab <span>earum</span> numquam nisi eaque odit.</p>
+</body>
+</html>
