@@ -1,0 +1,104 @@
+#day_of_week {
+    width: 700px;
+    height: 131px;
+}
+
+.item {
+    /* border: 1px solid black; */
+    border-right: 1px solid #F2F3F3;
+    width: 94px;
+    height: 125px;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+}
+
+.item > .date {
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.item > .icon {
+
+}
+
+.item #fri_am_icon, #fri_pm_icon {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(images/naver_wheather.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}
+
+#fri_am_icon {
+    background-position: -155px -77px;
+}
+
+#fri_pm_icon {
+    background-position: -155px -100px;
+}
+
+.item > .temperatures {
+    margin-bottom: -6px;
+}
+
+.item .temperatures_min, .temperatures_seperator, .temperatures_max {
+    display: inline;
+    margin: -7px;
+}
+
+.item .temperatures_min {
+    color: #3172E7;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item .temperatures_seperator {
+    margin: 0 3px 0 1px;
+    color: #DBDBDB;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.item .temperatures_max {
+    color: #CD3534;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+}
+
+.item .rain {
+}
+
+.item .rain > .rain_am, .rain_pm {
+    display: inline;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -.8px;
+    color: #3172E7;
+
+
+}
+
+.item .rain > .rain_am {
+    margin-right: 1px;
+}
+
+.item .rain > .rain_pm {
+    
+}
+
+hr {
+    margin-top: 10px;
+    border: 1px solid #F2F3F3;
+    width: 620px;
+}
+
+
+
