@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q02_key</title>
+    <style>
+        form[name=form1] {
+            justify-content: center;
+        }
+        #cResult {
+            border: 0;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1">
+        <h1>회원 가입</h1>
+        아이디 : <input type="text" name="txtId">
+        <div>
+            <input type="text" name="cResult" id="cResult">
+        </div>
+        
+    </form>
+    
+    <script>
+        var txtId = window.document.form1.txtId;
+        var cResult = window.document.form1.cResult;
+        txtId.onkeyup = checkId;
+
+        function checkId() {
+            if (txtId.value.length == 0) {
+                cResult.value = '';
+            } else if (txtId.value.length < 4) {
+                cResult.value = '아이디가 짧습니다.';
+            } else if (txtId.value.length > 12) {
+                cResult.value = '아이디가 깁니다.';
+            } else {
+                cResult.value = '아이디가 적합합니다.';
+            }
+        }
+    </script>
+
+</body>
+</html>

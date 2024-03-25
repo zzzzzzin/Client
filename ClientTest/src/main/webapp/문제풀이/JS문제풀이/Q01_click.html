@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q01_click</title>
+</head>
+
+<body>
+    <form name="form">
+
+        <h1>데이터 입력</h1>
+        <div>
+            <div>이름 : <input type="text" name="namee"></div>
+            <div>나이 : <input type="text" name="age"></div>
+            <div>별명 : <input type="text" name="nickname"></div>
+        </div>
+        <input type="button" name="long" value="long">
+        <input type="button" name="short" value="short">
+
+    </form>
+    <script>
+        var namee, age, nickname, long, short;
+        
+        namee = window.document.form.namee;
+        age = window.document.form.age;
+        nickname = window.document.form.nickname;
+        long = window.document.form.long;
+        short = window.document.form.short;
+
+        long.onclick = resizeLong;
+        short.onclick = resizeShort;
+
+        function resizeLong() {
+            namee.size = 50;
+            age.size = 50;
+            nickname.size = 50;
+        }
+        
+        function resizeShort() {
+            namee.size = 20;
+            age.size = 20;
+            nickname.size = 20;
+        }
+    </script>
+</body>
+
+</html>
