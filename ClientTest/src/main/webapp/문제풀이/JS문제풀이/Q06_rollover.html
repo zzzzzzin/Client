@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q06_rollover</title>
+    <style>
+        body {
+			margin: 25px;
+		}
+		#list {
+			display: inline-block;
+			border: 1px solid #DEDEDE;
+			padding: 5px;
+		}
+		
+		#label {
+			border: 0px solid #DEDEDE;
+			font-size: 30px;
+			font-weight: bold;
+			width: 600px;
+			color: #333;
+			margin: 10px;
+		}
+    </style>
+    <script>
+        window.onload = function() {
+            var img1 = document.images["img1"];
+            function change() {
+                if (img1.src != "images/img01.jpg" ) {
+                    img1.src = 'images/img01.jpg';
+                } else {
+                    img1.src = 'images/img04.jpg';
+                }
+            }
+
+            // img1 요소에 마우스 오버와 아웃 이벤트를 바인딩
+            img1.onmouseover = change;
+            img1.onmouseout = change;
+        }
+    </script>
+</head>
+<body>
+    <div id="list">
+		<img src="images/img01.jpg" name="img1" onmouseover="change();" onmouseout="change();"  />
+		<img src="images/img02.jpg" name="img2" onmouseover="change();" onmouseout="change();" />
+		<img src="images/img03.jpg" name="img3" onmouseover="change();" onmouseout="change();" />
+	</div>
+	<br>
+	<input type="text" name="label" id="label" readonly="readonly" />
+</body>
+</html>

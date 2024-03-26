@@ -1,63 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q03_image</title>
-    <style>
-        img {
-            width: 100px;
-        }
-    </style>
-</head>
-<body>
-        <h1>고양이</h1>
-        <img src="images/catty01.png" name="cat1">
-        <img src="images/catty02.png" name="cat2">
-        <img src="images/catty03.png" name="cat3">
-        <img src="images/catty04.png" name="cat4">
-        <img src="images/catty05.png" name="cat5">
-
     <script>
-        var cat1 = document.images['cat1'];
-        var cat2 = document.images['cat2'];
-        var cat3 = document.images['cat3'];
-        var cat4 = document.images['cat4'];
-        var cat5 = document.images['cat5'];
+        window.onload = function() {
+        document.images["cat1"].onmouseover = function() {
+            document.images["cat1"].width += 5;
+        };
+        document.images["cat2"].onmouseover = function() {
+            document.images["cat2"].width += 5;
+        };
+        document.images["cat3"].onmouseover = function() {
+            document.images["cat3"].width += 5;
+        };
+        document.images["cat4"].onmouseover = function() {
+            document.images["cat4"].width += 5;
+        };
+        document.images["cat5"].onmouseover = function() {
+            document.images["cat5"].width += 5;
+        };
+
+        document.images["cat1"].onclick = function() {
+                document.images["cat1"].width = 128;
+        };
+        document.images["cat2"].onclick = function() {
+                document.images["cat2"].width = 128;
+        };
+        document.images["cat3"].onclick = function() {
+                document.images["cat3"].width = 128;
+        };
+        document.images["cat4"].onclick = function() {
+                document.images["cat4"].width = 128;
+        };
+        document.images["cat5"].onclick = function() {
+                document.images["cat5"].width = 128;
+        };
+    }
+
+    window.onkeydown = function(event) {
+        if (event.keyCode >= 48 && event.keyCode <= 57) {
+            document.images["cat" + (event.keyCode - 48)].width += 5;
+        } else if (event.keyCode == 27) {
+            for (var i = 1; i <= 5; i++) {
+                document.images["cat" + i].width = 128;
+            }
+        }
         
-        cat1.onmouseover = function() {
-            cat1.width += 5;
-        };
-        cat2.onmouseover = function() {
-            cat2.width += 5;
-        };
-        cat3.onmouseover = function() {
-            cat3.width += 5;
-        };
-        cat4.onmouseover = function() {
-            cat4.width += 5;
-        };
-        cat5.onmouseover = function() {
-            cat5.width += 5;
-        };
-
-
-        cat1.onclick = function() {
-            cat1.width = 100;
-        };
-        cat2.onclick = function() {
-            cat2.width = 100;
-        };
-        cat3.onclick = function() {
-            cat3.width = 100;
-        };
-        cat4.onclick = function() {
-            cat4.width = 100;
-        };
-        cat5.onclick = function() {
-            cat5.width = 100;
-        };
-
+    }
     </script>
+</head>
+
+<body>
+    <h1>고양이</h1>
+		
+    <img src="images/catty01.png" name="cat1">
+    <img src="images/catty02.png" name="cat2">
+    <img src="images/catty03.png" name="cat3">
+    <img src="images/catty04.png" name="cat4">
+    <img src="images/catty05.png" name="cat5">
+
 </body>
+
 </html>
