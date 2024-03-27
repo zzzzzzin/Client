@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex47_event</title>
+    <style>
+        #tbl1 {
+            border-collapse: collapse;
+        }
+        #tbl1 td {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>테이블</h1>
+
+    <table id="tbl1">
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+        <tr>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+            <td>item</td>
+        </tr>
+    </table>
+    
+    <script>
+        //Hover Table
+        // const tbl = document.getElementById('tbl1');
+        // alert(tbl.children[0].children.length);
+        // const tr = tbl.firstChild.children;
+        // tr.forEach(row => console.log(row)); //유사 배열(인덱스 없음)
+        
+        const tr = document.querySelectorAll('#tbl1 tr');
+        tr.forEach(row => {
+            row.onmouseover = function () {
+                // event.target.bgColor = 'gold'; //target: 자식 중의 가장 아래 것
+                // event.srcElement.bgColor = 'gold';
+
+                event.currentTarget.bgColor = 'gold';
+
+                // row.bgColor = 'gold';
+                // this.bgColor = 'gold';
+
+                row.onmouseout = function() {
+                event.currentTarget.bgColor = 'transparent';
+                };
+            };   
+        }); //순수 배열(인덱스 있음)
+        
+
+    </script>
+</body>
+</html>
